@@ -1,8 +1,8 @@
 describe('Test in app.ts', () => {
-  it('sum', () => {
+  it('resul sum should be 5', () => {
     // 1. Arrange: Organizar
-    const num1 = 2;
-    const num2 = 3;
+    const num1 = 3;
+    const num2 = 2;
 
     // 2. Act: Actuar
     const result = num1 + num2;
