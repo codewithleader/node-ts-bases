@@ -11,4 +11,15 @@ describe('Test 03-callbacks', () => {
       done(); // Indicates that the test has completed.
     });
   });
+
+  test('getUserById should return the user if it exists', (done) => {
+    const id = 1; // User with id = 1 exists.
+
+    getUserById(id, (error, user) => {
+      expect(error).toBe(undefined);
+      expect(user).toEqual({ id, name: 'John Doe' });
+
+      done(); // Indicates that the test has completed.
+    });
+  });
 });
