@@ -33,3 +33,10 @@ describe('Test in app.ts', () => {
   });
 });
 ```
+
+## Generar data aleatoria con FAKER
+Doc: [https://fakerjs.dev/guide/](https://fakerjs.dev/guide/)
+
+```bash
+npm install --save-dev @faker-js/faker
+```
