@@ -1,6 +1,6 @@
 {
-  "include": ["src/**/*", "test/**/*"],
-  "exclude": ["node_modules"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"], // Excluir de la transpilación los archivos .spec.ts y .test.ts
   "compilerOptions": {
     "baseUrl": ".",
     "module": "commonjs",
@@ -11,6 +11,6 @@
     "sourceMap": true,
     "inlineSources": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   }
 }
